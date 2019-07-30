@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
 
   gem.authors       = ['Keith Beckman', 'MAK IT']
   gem.email         = ['kbeckman.c4sc@gmail.com', 'admin@makit.lv']
-  gem.homepage      = 'https://github.com/kbeckman/omniauth-wsfed'
+  gem.homepage      = 'https://github.com/mak-it/omniauth-wsfed'
   gem.license       = 'MIT'
 
   gem.add_runtime_dependency 'omniauth',          '~> 1.2', '>= 1.2.2'
