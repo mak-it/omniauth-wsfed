@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{A WS-Federation + WS-Trust strategy for OmniAuth.}
   gem.description   = %q{OmniAuth WS-Federation strategy enabling integration with Windows Azure Access Control Service (ACS), Active Directory Federation Services (ADFS) 2.0, custom Identity Providers built with Windows Identity Foundation (WIF) or any other Identity Provider supporting the WS-Federation protocol.}
 
-  gem.authors       = ['Keith Beckman']
-  gem.email         = ['kbeckman.c4sc@gmail.com']
+  gem.authors       = ['Keith Beckman', 'MAK IT']
+  gem.email         = ['kbeckman.c4sc@gmail.com', 'admin@makit.lv']
   gem.homepage      = 'https://github.com/kbeckman/omniauth-wsfed'
   gem.license       = 'MIT'
 

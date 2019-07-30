@@ -99,7 +99,7 @@ posted. Defaults to the OmniAuth callback URL. **Optional**
 
 ## Authors and Credits ##
 
-Authored by [Keith Beckman](https://github.com/kbeckman).
+Authored by [Keith Beckman](https://github.com/kbeckman) and [MAK IT](https://github.com/mak-it).
 
 Special thanks to the developers of the following projects from which I borrowed from for omniauth-wsfed:
 
