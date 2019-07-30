@@ -9,10 +9,9 @@ under scenarios requiring the [WS-Federation protocol](﻿http://msdn.microsoft.
 for authentication. These services are typically used for Identity Federation and Single
 Sign-On across large organizations or authentication domains.
 
-* [Windows Azure ACS](http://msdn.microsoft.com/en-us/library/windowsazure/gg429786.aspx)
 * [ADFS 2.0](http://msdn.microsoft.com/en-us/magazine/ee335705.aspx)
 * Corporate Secure Token Servers (STSs)
-
+* Windows Azure ACS (retired on November 7, 2018)
 
 ## Installation ##
 
