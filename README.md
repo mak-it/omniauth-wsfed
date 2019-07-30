@@ -1,18 +1,17 @@
 # OmniAuth WS-Fed #
 
-[![Gem Version](https://badge.fury.io/rb/omniauth-wsfed.png)](http://badge.fury.io/rb/omniauth-wsfed)
-[![Code Climate](https://codeclimate.com/github/kbeckman/omniauth-wsfed.png)](https://codeclimate.com/github/kbeckman/omniauth-wsfed)
-[![Build Status](https://travis-ci.org/kbeckman/omniauth-wsfed.png?branch=development)](https://travis-ci.org/kbeckman/omniauth-wsfed)
+[![Gem Version](https://badge.fury.io/rb/omniauth-wsfed.svg)](http://badge.fury.io/rb/omniauth-wsfed)
+[![Code Climate](https://codeclimate.com/github/mak-it/omniauth-wsfed.svg)](https://codeclimate.com/github/mak-it/omniauth-wsfed)
+[![Build Status](https://travis-ci.org/mak-it/omniauth-wsfed.svg)](https://travis-ci.org/mak-it/omniauth-wsfed)
 
 The OmniAuth-WSFed authentication strategy can be used with the following technologies
 under scenarios requiring the [WS-Federation protocol](﻿http://msdn.microsoft.com/en-us/library/bb498017.aspx)
 for authentication. These services are typically used for Identity Federation and Single
 Sign-On across large organizations or authentication domains.
 
-* [Windows Azure ACS](http://msdn.microsoft.com/en-us/library/windowsazure/gg429786.aspx)
 * [ADFS 2.0](http://msdn.microsoft.com/en-us/magazine/ee335705.aspx)
 * Corporate Secure Token Servers (STSs)
-
+* Windows Azure ACS (retired on November 7, 2018)
 
 ## Installation ##
 
@@ -99,7 +98,7 @@ posted. Defaults to the OmniAuth callback URL. **Optional**
 
 ## Authors and Credits ##
 
-Authored by [Keith Beckman](https://github.com/kbeckman).
+Authored by [Keith Beckman](https://github.com/kbeckman) and [MAK IT](https://github.com/mak-it).
 
 Special thanks to the developers of the following projects from which I borrowed from for omniauth-wsfed:
 
