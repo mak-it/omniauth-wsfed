@@ -79,7 +79,7 @@ sent. **Required**.
 
 * `:idp_cert_fingerprint` - The SHA1 fingerprint of the IdP's signing certificate
 (e.g. "90:CC:16:F0:8D:…"). This is provided by the IdP when setting up the trust
-relationship. This option or `:idp_cert` must be present.
+relationship. This option or `:idp_cert` must be present. (`openssl x509 -noout -fingerprint -sha1 -in cert.pem`)
 
 * `:idp_cert` - The IdP's certificate in PEM format. This option or
 `:idp_cert_fingerprint` must be present.
@@ -94,7 +94,6 @@ posted. Defaults to the OmniAuth callback URL. **Optional**
 **uid** property.
 
 * `:saml_version` - The version of SAML tokens. **Defaults to 2**.
-
 
 ## Authors and Credits ##
 
